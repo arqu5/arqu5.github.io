@@ -1,45 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
+/* ... (rest of the previous styles) ... */
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
+.container {
+    display: flex;
 }
 
 nav {
+    flex: 1;  /* Take up 1 fraction of the available space */
+    min-width: 200px;  /* Set a minimum width */
     display: flex;
-    justify-content: center;
+    flex-direction: column;  /* Stack the buttons vertically */
+    padding: 1rem;
     background-color: #555;
-    padding: 0.5rem 0;
+}
+
+.content {
+    flex: 3;  /* Take up 3 fractions of the available space, making it wider */
+    padding: 1rem;
 }
 
 nav button {
-    margin: 0 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #777;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    margin-bottom: 1rem;  /* Add space below each button */
+    /* ... (rest of the button styles) ... */
 }
 
-nav button:hover {
-    background-color: #999;
-}
-
-section {
-    display: none;
-    padding: 1rem;
-    background-color: white;
-    margin: 1rem 10%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section#about {
-    display: block; /* Show 'about' section by default */
-}
+/* ... (rest of the section styles, etc.) ... */

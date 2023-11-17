@@ -3072,11 +3072,12 @@ html.dark .bg-dots {
   --tw-border-opacity:0.5!important
 }
 @font-face {
-  font-family:Inter Variable;
-  font-style:normal;
-  font-display:swap;
-  font-weight:100 900;
-  src:url(/_next/static/media/inter-cyrillic-ext-wght-normal.f62cc866.woff2) format("woff2-variations");
+  font-family: 'Inter Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
   unicode-range:U+0460-052f,
   U+1c80-1c88,
   U+20b4,
@@ -3085,11 +3086,12 @@ html.dark .bg-dots {
   U+fe2e-fe2f
 }
 @font-face {
-  font-family:Inter Variable;
-  font-style:normal;
-  font-display:swap;
-  font-weight:100 900;
-  src:url(/_next/static/media/inter-cyrillic-wght-normal.fd42267c.woff2) format("woff2-variations");
+  font-family: 'Inter Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
   unicode-range:U+0301,
   U+0400-045f,
   U+0490-0491,
@@ -3097,27 +3099,30 @@ html.dark .bg-dots {
   U+2116
 }
 @font-face {
-  font-family:Inter Variable;
-  font-style:normal;
-  font-display:swap;
-  font-weight:100 900;
-  src:url(/_next/static/media/inter-greek-ext-wght-normal.f876a5a3.woff2) format("woff2-variations");
+  font-family: 'Inter Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
   unicode-range:U+1f??
 }
 @font-face {
-  font-family:Inter Variable;
-  font-style:normal;
-  font-display:swap;
-  font-weight:100 900;
-  src:url(/_next/static/media/inter-greek-wght-normal.04553489.woff2) format("woff2-variations");
+  font-family: 'Inter Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
   unicode-range:U+0370-03ff
 }
 @font-face {
-  font-family:Inter Variable;
-  font-style:normal;
-  font-display:swap;
-  font-weight:100 900;
-  src:url(/_next/static/media/inter-vietnamese-wght-normal.530676b6.woff2) format("woff2-variations");
+  font-family: 'Inter Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
   unicode-range:U+0102-0103,
   U+0110-0111,
   U+0128-0129,
@@ -3133,11 +3138,12 @@ html.dark .bg-dots {
   U+20ab
 }
 @font-face {
-  font-family:Inter Variable;
-  font-style:normal;
-  font-display:swap;
-  font-weight:100 900;
-  src:url(/_next/static/media/inter-latin-ext-wght-normal.7df16007.woff2) format("woff2-variations");
+  font-family: 'Inter Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
   unicode-range:U+0100-02af,
   U+0304,
   U+0308,
@@ -3152,11 +3158,12 @@ html.dark .bg-dots {
   U+a720-a7ff
 }
 @font-face {
-  font-family:Inter Variable;
-  font-style:normal;
-  font-display:swap;
-  font-weight:100 900;
-  src:url(/_next/static/media/inter-latin-wght-normal.40c45725.woff2) format("woff2-variations");
+  font-family: 'Inter Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
   unicode-range:U+00??,
   U+0131,
   U+0152-0153,
@@ -3183,7 +3190,7 @@ html.dark .bg-dots {
   font-style:normal;
   font-display:swap;
   font-weight:100 800;
-  src:url(/_next/static/media/jetbrains-mono-cyrillic-ext-wght-normal.90617ec2.woff2) format("woff2-variations");
+  src:url(/static/fonts/jetbrains-mono-cyrillic-ext-wght-normal.90617ec2.woff2) format("woff2");
   unicode-range:U+0460-052f,
   U+1c80-1c88,
   U+20b4,
@@ -3196,7 +3203,7 @@ html.dark .bg-dots {
   font-style:normal;
   font-display:swap;
   font-weight:100 800;
-  src:url(/_next/static/media/jetbrains-mono-cyrillic-wght-normal.3c400e72.woff2) format("woff2-variations");
+  src:url(/static/fonts/jetbrains-mono-cyrillic-wght-normal.3c400e72.woff2) format("woff2");
   unicode-range:U+0301,
   U+0400-045f,
   U+0490-0491,
@@ -3208,7 +3215,7 @@ html.dark .bg-dots {
   font-style:normal;
   font-display:swap;
   font-weight:100 800;
-  src:url(/_next/static/media/jetbrains-mono-greek-wght-normal.9fb0e55d.woff2) format("woff2-variations");
+  src:url(/static/fonts/jetbrains-mono-greek-wght-normal.9fb0e55d.woff2) format("woff2");
   unicode-range:U+0370-03ff
 }
 @font-face {
@@ -3216,7 +3223,7 @@ html.dark .bg-dots {
   font-style:normal;
   font-display:swap;
   font-weight:100 800;
-  src:url(/_next/static/media/jetbrains-mono-vietnamese-wght-normal.3954b8ac.woff2) format("woff2-variations");
+  src:url(/static/fonts/jetbrains-mono-vietnamese-wght-normal.3954b8ac.woff2) format("woff2");
   unicode-range:U+0102-0103,
   U+0110-0111,
   U+0128-0129,
@@ -3236,7 +3243,7 @@ html.dark .bg-dots {
   font-style:normal;
   font-display:swap;
   font-weight:100 800;
-  src:url(/_next/static/media/jetbrains-mono-latin-ext-wght-normal.4bf88a08.woff2) format("woff2-variations");
+  src:url(/static/fonts/jetbrains-mono-latin-ext-wght-normal.4bf88a08.woff2) format("woff2");
   unicode-range:U+0100-02af,
   U+0304,
   U+0308,
@@ -3255,7 +3262,7 @@ html.dark .bg-dots {
   font-style:normal;
   font-display:swap;
   font-weight:100 800;
-  src:url(/_next/static/media/jetbrains-mono-latin-wght-normal.726fb01b.woff2) format("woff2-variations");
+  src:url(/static/fonts/jetbrains-mono-latin-wght-normal.726fb01b.woff2) format("woff2");
   unicode-range:U+00??,
   U+0131,
   U+0152-0153,
